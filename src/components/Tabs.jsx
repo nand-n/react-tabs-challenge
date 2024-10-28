@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { fetchTabData } from '../utils/fetchData';
-import SkeletonLoading from './loading/sceletonLoading';
+import SkeletonLoading from './loading/skeletonLoading';
 import ToastError from './toastError';
 
 const Tabs = () => {
